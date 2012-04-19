@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93A573DD153FDD0000FD11BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A573DC153FDD0000FD11BC /* UIKit.framework */; };
+		93A573DF153FDD0000FD11BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A573DE153FDD0000FD11BC /* Foundation.framework */; };
+		93A573E1153FDD0000FD11BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A573E0153FDD0000FD11BC /* CoreGraphics.framework */; };
+		93A573E7153FDD0000FD11BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93A573E5153FDD0000FD11BC /* InfoPlist.strings */; };
+		93A573E9153FDD0000FD11BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A573E8153FDD0000FD11BC /* main.m */; };
+		93A573ED153FDD0000FD11BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A573EC153FDD0000FD11BC /* AppDelegate.m */; };
+		93A573F0153FDD0000FD11BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A573EF153FDD0000FD11BC /* ViewController.m */; };
+		93A573F3153FDD0000FD11BC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93A573F1153FDD0000FD11BC /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93A573D8153FDD0000FD11BC /* 360view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360view.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A573DC153FDD0000FD11BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93A573DE153FDD0000FD11BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93A573E0153FDD0000FD11BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93A573E4153FDD0000FD11BC /* 360view-Info.plist */ = {isa = PBXFileReference; path = "360view-Info.plist"; sourceTree = "<group>"; };
+		93A573E6153FDD0000FD11BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93A573E8153FDD0000FD11BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93A573EA153FDD0000FD11BC /* 360view-Prefix.pch */ = {isa = PBXFileReference; path = "360view-Prefix.pch"; sourceTree = "<group>"; };
+		93A573EB153FDD0000FD11BC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		93A573EC153FDD0000FD11BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		93A573EE153FDD0000FD11BC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		93A573EF153FDD0000FD11BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		93A573F2153FDD0000FD11BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A573D5153FDD0000FD11BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A573DD153FDD0000FD11BC /* UIKit.framework in Frameworks */,
+				93A573DF153FDD0000FD11BC /* Foundation.framework in Frameworks */,
+				93A573E1153FDD0000FD11BC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93A573CD153FDD0000FD11BC = {
+			isa = PBXGroup;
+			children = (
+				93A573E2153FDD0000FD11BC /* 360view */,
+				93A573DB153FDD0000FD11BC /* Frameworks */,
+				93A573D9153FDD0000FD11BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93A573D9153FDD0000FD11BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A573D8153FDD0000FD11BC /* 360view.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A573DB153FDD0000FD11BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93A573DC153FDD0000FD11BC /* UIKit.framework */,
+				93A573DE153FDD0000FD11BC /* Foundation.framework */,
+				93A573E0153FDD0000FD11BC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93A573E2153FDD0000FD11BC /* 360view */ = {
+			isa = PBXGroup;
+			children = (
+				93A573EB153FDD0000FD11BC /* AppDelegate.h */,
+				93A573EC153FDD0000FD11BC /* AppDelegate.m */,
+				93A573EE153FDD0000FD11BC /* ViewController.h */,
+				93A573EF153FDD0000FD11BC /* ViewController.m */,
+				93A573F1153FDD0000FD11BC /* ViewController.xib */,
+				93A573E3153FDD0000FD11BC /* Supporting Files */,
+			);
+			path = 360view;
+			sourceTree = "<group>";
+		};
+		93A573E3153FDD0000FD11BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A573E4153FDD0000FD11BC /* 360view-Info.plist */,
+				93A573E5153FDD0000FD11BC /* InfoPlist.strings */,
+				93A573E8153FDD0000FD11BC /* main.m */,
+				93A573EA153FDD0000FD11BC /* 360view-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93A573D7153FDD0000FD11BC /* 360view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A573F6153FDD0000FD11BC /* Build configuration list for PBXNativeTarget "360view" */;
+			buildPhases = (
+				93A573D4153FDD0000FD11BC /* Sources */,
+				93A573D5153FDD0000FD11BC /* Frameworks */,
+				93A573D6153FDD0000FD11BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 360view;
+			productName = 360view;
+			productReference = 93A573D8153FDD0000FD11BC /* 360view.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A573CF153FDD0000FD11BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 93A573D2153FDD0000FD11BC /* Build configuration list for PBXProject "360view" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93A573CD153FDD0000FD11BC;
+			productRefGroup = 93A573D9153FDD0000FD11BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A573D7153FDD0000FD11BC /* 360view */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A573D6153FDD0000FD11BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A573E7153FDD0000FD11BC /* InfoPlist.strings in Resources */,
+				93A573F3153FDD0000FD11BC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A573D4153FDD0000FD11BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A573E9153FDD0000FD11BC /* main.m in Sources */,
+				93A573ED153FDD0000FD11BC /* AppDelegate.m in Sources */,
+				93A573F0153FDD0000FD11BC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93A573E5153FDD0000FD11BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A573E6153FDD0000FD11BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93A573F1153FDD0000FD11BC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93A573F2153FDD0000FD11BC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93A573F4153FDD0000FD11BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		93A573F5153FDD0000FD11BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93A573F7153FDD0000FD11BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "360view/360view-Prefix.pch";
+				INFOPLIST_FILE = "360view/360view-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93A573F8153FDD0000FD11BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "360view/360view-Prefix.pch";
+				INFOPLIST_FILE = "360view/360view-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93A573D2153FDD0000FD11BC /* Build configuration list for PBXProject "360view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A573F4153FDD0000FD11BC /* Debug */,
+				93A573F5153FDD0000FD11BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A573F6153FDD0000FD11BC /* Build configuration list for PBXNativeTarget "360view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A573F7153FDD0000FD11BC /* Debug */,
+				93A573F8153FDD0000FD11BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A573CF153FDD0000FD11BC /* Project object */;
+}
